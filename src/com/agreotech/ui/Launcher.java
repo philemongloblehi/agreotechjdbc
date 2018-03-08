@@ -183,7 +183,7 @@ public class Launcher {
 					System.out.println(" (********| AFFICHAGE DE MES PARCELLES |*********\n) ");
 					for (Parcelle maParcelle : listeParcelle) {
 			            
-						maParcelle.afficher();
+						//maParcelle.afficher();
 						System.out.println("--------");
 			            
 			        }
@@ -258,7 +258,7 @@ public class Launcher {
 					System.out.println(" (********| AFFICHAGE DE MES PRODUITS |*********) \n");
 					for (Produit monProduit : listeProduit) {
 			            
-						monProduit.afficher();
+						//monProduit.afficher();
 						System.out.println("--------");
 			            
 			        }
@@ -547,7 +547,7 @@ public class Launcher {
 						consoEssenceJour = sc.nextInt();
 						sc.nextLine();
 						
-						Engin monEngin = new Engin(designation, etat, consoEssenceJour);
+						Engin monEngin = new Engin(designation, etat, consoEssenceJour, 550, 1200);
 						listeEngin.add(monEngin);
 					
 					
@@ -556,7 +556,7 @@ public class Launcher {
 					System.out.println(" (******** AFFICHAGE DE MON ENGIN *********)\n ");
 					for (Engin monEngin : listeEngin) {
 			            
-						monEngin.afficher();
+						//monEngin.afficher();
 						System.out.println("--------");
 			            
 			        }
@@ -634,7 +634,7 @@ public class Launcher {
 					System.out.println(" (******** AFFICHAGE DE MON RENDEMENT *********)\n ");
 					for (Rendement monRendement : listeRendement) {
 			            
-						monRendement.afficher();
+						//monRendement.afficher();
 						System.out.println("--------");
 			            
 			        }
